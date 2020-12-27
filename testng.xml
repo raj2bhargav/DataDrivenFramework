@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Yahoo App Test Automation" parallel="tests" thread-count="6">
+	
+  <test thread-count="5" name="Yahoo App Test">
+
+	<parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+	<parameter name="emailId" value="test@gmail.com"/>
+	
+	<classes>
+	 <class name="com.excel.tests.ParameterTest"/>
+	</classes>
+
+	
+
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+

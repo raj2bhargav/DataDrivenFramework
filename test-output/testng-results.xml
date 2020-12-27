@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-26T03:01:28Z" name="Yahoo App Test Automation" finished-at="2020-12-26T03:01:42Z" duration-ms="13943">
+    <groups>
+    </groups>
+    <test started-at="2020-12-26T03:01:28Z" name="Yahoo App Test" finished-at="2020-12-26T03:01:42Z" duration-ms="13943">
+      <class name="com.excel.tests.ParameterTest">
+        <test-method signature="amazonLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.excel.tests.ParameterTest@544d57e]" started-at="2020-12-26T03:01:28Z" name="amazonLoginTest" finished-at="2020-12-26T03:01:42Z" duration-ms="13905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://mail.rediff.com/cgi-bin/login.cgi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLoginTest -->
+      </class> <!-- com.excel.tests.ParameterTest -->
+    </test> <!-- Yahoo App Test -->
+  </suite> <!-- Yahoo App Test Automation -->
+</testng-results>
